@@ -1,7 +1,7 @@
 {
-  "homepage": "https://lbarros77.github.io/portfolio",
-  "name": "portfolio",
-  "version": "0.1.0",
+  "homepage": ".",
+  "name": "lbdev",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@mailchimp/mailchimp_transactional": "^1.0.50",
