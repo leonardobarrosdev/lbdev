@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import ReactGA from 'react-ga4';
 
 ReactGA.initialize("G-SMSSZBS44E");
+ReactGA.send({ hitType: "pageview", page: document.location.pathname, title: "Main Page" });
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
