@@ -11,32 +11,32 @@ export function Projects() {
   const projects = [
     {
       title: "Business Startup",
-      Description: "Design & development",
+      description: "Design & desenvolvimento",
       imgUrl: projImg1
     },
     {
       title: "Business Startup",
-      Description: "Design & development",
+      description: "Design & desenvolvimento",
       imgUrl: projImg2
     },
     {
       title: "Business Startup",
-      Description: "Design & development",
+      description: "Design & desenvolvimento",
       imgUrl: projImg3
     },
     {
       title: "Business Startup",
-      Description: "Design & development",
+      description: "Design & desenvolvimento",
       imgUrl: projImg2
     },
     {
       title: "Business Startup",
-      Description: "Design & development",
+      description: "Design & desenvolvimento",
       imgUrl: projImg3
     },
     {
       title: "Business Startup",
-      Description: "Design & development",
+      description: "Design & desenvolvimento",
       imgUrl: projImg1
     },
   ]

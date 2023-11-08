@@ -18,7 +18,7 @@ export function Contact() {
   const [buttonText, setButtonText] = useState("Enviar");
   const [status, setStatus] = useState({});
   const mailchimpClient = mailchimp(process.env.API_Key);
-  const recaptchaRef = React.createRef();
+  const recaptchaRef = React.useRef();
 
   function onFormUpdate(category, value) {
     setFormDetails({

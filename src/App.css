@@ -302,7 +302,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  /* margin-top: -60px; */
 }
 .skill h2 {
   font-size: 45px;
@@ -328,7 +327,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /*********** Projects CSS ***************/
 .project {
   padding: 80px 0;
-  /* padding: 250px 0 80px 0; */
   background-color: black;
 }
 .project h2 {
@@ -345,17 +343,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   width: 70%;
 }
-.project .nav.nav-pills {
+.project .nav-pills {
   width: 72%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
 }
-.project .nav.nav-pills .nav-item {
+.project .nav-pills .nav-item {
   width: 33.33333%;
 }
-.project .nav.nav-pills .nav-link {
+.project .nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;
   padding: 17px 0;
@@ -369,7 +367,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   z-index: 0;
 }
-.project .nav.nav-pills .nav-link::before {
+.project .nav-pills .nav-link::before {
   content: "";
   position: absolute;
   width: 0;
@@ -380,10 +378,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -1;
   transition: 0.3s ease-in-out;
 }
-.project .nav.nav-pills .nav-link-active::before {
+.project .nav-pills .nav-link-active::before {
   width: 100% !important;
 }
-.project .nav.nav-pills .nav-link-active {
+.project .nav-pills .nav-link-active {
   border: 1px solid rgba(255, 255, 255, 1);
 }
 .nav-link#projects-tabs-tab-first {
@@ -416,7 +414,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbx:hover::before {
   height: 100%;
 }
-.proj-txtx {
+.proj-text {
   position: absolute;
   text-align: center;
   top: 65%;
@@ -426,17 +424,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 0;
   width: 100%;
 }
-.proj-imgbx:hover .proj-txtx {
+.proj-imgbx:hover .proj-text {
   top: 50%;
   opacity: 1;
 }
-.proj-txtx h4 {
+.proj-text h4 {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
-.proj-txtx span {
+.proj-text span {
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
