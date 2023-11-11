@@ -18,7 +18,7 @@ export function Footer() {
                         <div className="social-icon">
                             <a href="https://www.linkedin.com/in/leonardo-barros-da-silva-741b9b196/"><img src={navIcon1} alt="Linkedin profile" target="_blank" /></a>
                             <a href="https://www.facebook.com/leonardo.barrossilva.3"><img src={navIcon2} alt="Facebook profile" target="_blank" /></a>
-                            <a href="https://www.instagram.com/leonardobarrosdw/"><img src={navIcon3} alt="Instagram profile" target="_blank" /></a>
+                            <a href="https://www.instagram.com/leonardobarrosdev/"><img src={navIcon3} alt="Instagram profile" target="_blank" /></a>
                         </div>
                         <p>Copyright 2023. Todos os direitos reservados: Leonardo Barros</p>
                     </Col>

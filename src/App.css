@@ -270,10 +270,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 25px;
   margin-left: 10px;
   transition: 0.3s ease-in-out;
-  line-height: 1
+  line-height: 1;
 }
 .banner button:hover svg {
-  margin-left: 25px;
+  color: rgba(170, 54, 124, 0.5);
 }
 .banner img {
   animation: updown 3s linear infinite;
@@ -494,7 +494,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: #fff;
   padding: 14px 48px;
   font-size: 18px;
-  margin-top: 25px;
+  margin-top: 15px;
   border-radius: 20px;
   position: relative;
   transition: 0.3s ease-in-out;
@@ -520,6 +520,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button:hover::before {
   width: 100%;
+}
+.contact .nav-link svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+.contact .nav-link:hover svg {
+  color: rgba(170, 54, 124, 0.5);
 }
 
 /************ Footer Css ************/
