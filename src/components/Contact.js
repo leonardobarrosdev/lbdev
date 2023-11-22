@@ -73,7 +73,7 @@ export function Contact() {
                   <h2 className="mb-1">Pedido para orçamento</h2>
                   <Nav.Link href="https://forms.gle/MYmA61eVZrrUFLuq9"><h5 className="mb-3">Ou responda o formulário <UiChecks /></h5></Nav.Link>
                   <form onSubmit={sendEmail}>
-                    <ReCAPTCHA ref={formRef} size="invisible" sitekey="%REACT_APP_RECAPTCHA_SITE_KEY%" />
+                    <ReCAPTCHA ref={formRef} size="invisible" sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY} />
                     <Row>
                       {
                         status.message &&

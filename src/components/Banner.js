@@ -11,7 +11,7 @@ export function Banner() {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   // eslint-disable-next-line
   const [index, setIndex] = useState(1);
-  const toRotate = ["Front-end", "Back-end", "FullStack"];
+  const toRotate = ["Front-end", "Back-end", "Full Stack"];
   const period = 2000;
   const PDF_FILE_URL = "https://drive.google.com/file/d/1wpPvt-4SGwYdXe-mRTDjhDAWMGNCJn8M/view?usp=sharing";
 
