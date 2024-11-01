@@ -69,7 +69,7 @@ export function Banner() {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animete__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{"Ola! Sou Leonardo Barros o "}<span className="text-rotate" datePeriod="1000" date-rotate='["Front-end", "Back-end", "FullStack"]'><span className="wrap">{text}</span></span></h1>
+                <h1>{"Hi! My name's Leonardo Barros the "}<span className="text-rotate" datePeriod="1000" date-rotate='["Front-end", "Back-end", "FullStack"]'><span className="wrap">{text}</span></span></h1>
                 <p>With large experience, my passionate and committed approach ensures the delivery of high-quality projects and the satisfaction of my clients. As a freelancer, I am flexible and communicative, always ready to collaborate and meet the specific needs of your project.</p>
                 <button id="downloadBtn" onClick={() => {
                   downloadFileAtUrl(PDF_FILE_URL)
