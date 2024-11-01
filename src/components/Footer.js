@@ -20,7 +20,7 @@ export function Footer() {
                             <a href="https://www.facebook.com/leonardo.barrossilva.3"><img src={navIcon2} alt="Facebook profile" target="_blank" /></a>
                             <a href="https://www.instagram.com/leonardobarrosdev/"><img src={navIcon3} alt="Instagram profile" target="_blank" /></a>
                         </div>
-                        <p>Copyright 2023. Todos os direitos reservados: Leonardo Barros</p>
+                        <p className="text-center">Copyright 2023. All rights reserved: Leonardo Barros</p>
                     </Col>
                 </Row>
             </Container>

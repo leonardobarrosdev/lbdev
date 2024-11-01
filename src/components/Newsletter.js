@@ -26,7 +26,7 @@ export function Newsletter({status, message, onValidated}) {
             <div className="newsletter-bx wow slideInUp">
                 <Row>
                     <Col md={12} lg={7} xl={5}>
-                        <h3>Inscreva-se na minha Newsletter<br></br> e nunca mais seja o último a saber das novidades.</h3>
+                        <h3>Sign up for my Newsletter<br></br> and never be the last to know the latest news again.</h3>
                         {status === "sending" && <Alert>Sending...</Alert>}
                         {status === "error" && <Alert variant="danger">{message}</Alert>}
                         {status === "success" && <Alert variant="success">{message}</Alert>}
@@ -34,8 +34,8 @@ export function Newsletter({status, message, onValidated}) {
                     <Col md={12} lg={4} xl={7}>
                         <form onSubmit={handleSubmit}>
                             <div className="new-email-bx mt-md-3">
-                                <input value={email} type="email" autoComplete="email" onChange={(e) => setEmail(e.target.value)} placeholder="Digite o seu melhor E-mail" />
-                                <button type="submit">Inscrever-se</button>
+                                <input value={email} type="email" autoComplete="email" onChange={(e) => setEmail(e.target.value)} placeholder="Enter you best E-mail" />
+                                <button type="submit">Sign up</button>
                             </div>
                         </form>
                     </Col>

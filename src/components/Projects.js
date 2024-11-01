@@ -11,32 +11,32 @@ export function Projects() {
   const projects = [
     {
       title: "Business Startup",
-      description: "Design & desenvolvimento",
+      description: "Design & development",
       imgUrl: projImg1
     },
     {
       title: "Business Startup",
-      description: "Design & desenvolvimento",
+      description: "Design & development",
       imgUrl: projImg2
     },
     {
       title: "Business Startup",
-      description: "Design & desenvolvimento",
+      description: "Design & development",
       imgUrl: projImg3
     },
     {
       title: "Business Startup",
-      description: "Design & desenvolvimento",
+      description: "Design & development",
       imgUrl: projImg2
     },
     {
       title: "Business Startup",
-      description: "Design & desenvolvimento",
+      description: "Design & development",
       imgUrl: projImg3
     },
     {
       title: "Business Startup",
-      description: "Design & desenvolvimento",
+      description: "Design & development",
       imgUrl: projImg1
     },
   ]
@@ -50,7 +50,7 @@ export function Projects() {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projetos</h2>
-                <p>Desde a criação visual impressionante do front-end até a robustez do back-end. Cada projeto reflete minha dedicação à qualidade e ao profissionalismo, proporcionando soluções personalizadas que atendem às necessidades exclusivas dos meus clientes. Cada imagem aqui representa um sucesso na jornada de transformar ideias em realidade digital. Seja inspirado pela inovação e pela criatividade que cada projeto traz consigo.</p>
+                <p>From the stunning visual creation of the front end to the robustness of the back end. Each project reflects my dedication to quality and professionalism, providing customized solutions that meet my clients' unique needs. Each image here represents a success in the journey of transforming ideas into digital reality. Be inspired by the innovation and creativity that each project brings with it.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>

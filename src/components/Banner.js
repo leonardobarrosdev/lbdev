@@ -13,7 +13,7 @@ export function Banner() {
   const [index, setIndex] = useState(1);
   const toRotate = ["Front-end", "Back-end", "Full Stack"];
   const period = 2000;
-  const PDF_FILE_URL = "https://drive.google.com/file/d/1wpPvt-4SGwYdXe-mRTDjhDAWMGNCJn8M/view?usp=sharing";
+  const PDF_FILE_URL = "https://www.canva.com/design/DAGO0eH-FLA/dOxj7Qx2INrLS9bw_W3aVA/view?utm_content=DAGO0eH-FLA&utm_campaign=designshare&utm_medium=link&utm_source=editor";
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -68,12 +68,12 @@ export function Banner() {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animete__fadeIn" : ""}>
-                <span className="tagline">Bem-vindo ao meu Portfólio</span>
+                <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{"Ola! Sou Leonardo Barros o "}<span className="text-rotate" datePeriod="1000" date-rotate='["Front-end", "Back-end", "FullStack"]'><span className="wrap">{text}</span></span></h1>
-                <p>Com mais de 3 anos de experiência, minha abordagem impetuosa e comprometida garante a entrega de projetos de alta qualidade e a satisfação dos meus clientes. Como freelancer, sou flexível e comunicativo, sempre pronto para colaborar e atender às necessidades específicas do seu projeto.</p>
+                <p>With large experience, my passionate and committed approach ensures the delivery of high-quality projects and the satisfaction of my clients. As a freelancer, I am flexible and communicative, always ready to collaborate and meet the specific needs of your project.</p>
                 <button id="downloadBtn" onClick={() => {
                   downloadFileAtUrl(PDF_FILE_URL)
-                }}>Faça o download do meu CV <FileEarmarkArrowDown size={25} /></button>
+                }}>Do download of the my CV <FileEarmarkArrowDown size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
