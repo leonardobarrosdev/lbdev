@@ -49,7 +49,7 @@ export function Projects() {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projetos</h2>
+                <h2>Projects</h2>
                 <p>From the stunning visual creation of the front end to the robustness of the back end. Each project reflects my dedication to quality and professionalism, providing customized solutions that meet my clients' unique needs. Each image here represents a success in the journey of transforming ideas into digital reality. Be inspired by the innovation and creativity that each project brings with it.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
